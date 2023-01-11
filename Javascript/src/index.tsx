@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom/client";
-import ToggleSwitch from "./toggleSwitch/ToggleSwitch";
+import Sidebar from "./sidebar/Sidebar";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <>
-    <ToggleSwitch />
+    <Sidebar />
   </>
 );
