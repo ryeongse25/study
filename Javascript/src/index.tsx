@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom/client";
-import Sidebar from "./sidebar/Sidebar";
+import Callback from "./sweetAlert/Callback";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <>
-    <Sidebar />
+    <Callback />
   </>
 );
