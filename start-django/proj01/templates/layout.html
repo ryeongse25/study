@@ -1,4 +1,5 @@
 <html>
+
   <head>
     <style>
       .container {
@@ -6,8 +7,12 @@
       }
     </style>
   </head>
+
   <body>
     {% include "nav.html" %}
-    <div class="container">{% block content %}{% endblock %}</div>
+    <div class="container">
+      {% block content %}{% endblock %}
+    </div>
   </body>
+
 </html>
